@@ -17,5 +17,4 @@ def predict():
         pred=model.predict(arr)
         return render_template("result.html",ans=pred)
 
-if(__name__)=="__main__":
-    app.run(debug=True)
+
